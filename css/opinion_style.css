@@ -31,6 +31,8 @@ figure {
   padding:0;
 }
 .article_img {
+  display: block;
+  margin: auto;
   max-width:400px;
   max-height: 400px;
 }
