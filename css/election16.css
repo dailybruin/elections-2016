@@ -168,15 +168,25 @@ color: #999;
 }
 
 .filter-text{
+  margin-top: 10px;
+  display: inline;
   color: rgb(129,211,232);
   text-align: center;
 }
 
 .all{
+  cursor: pointer;
   font-size: 15px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
 }
 
 .all:hover{
-  background-color: black;
-  color: white;
+  font-size: 22px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
 }
