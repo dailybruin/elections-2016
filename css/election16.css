@@ -135,6 +135,9 @@ text-decoration: none;
 .blurb {
     font-size: 14px;
     font-size: .875em;
+    max-width: 60%;
+    display:block;
+    margin:auto;
 }
 @media (max-width:400px) {
     .article_contain {
@@ -203,4 +206,9 @@ text-decoration: none;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
+}
+
+.image{
+  width: 100%;
+  text-align: center;
 }
