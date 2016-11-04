@@ -16,10 +16,10 @@ document.getElementById("footer").innerHTML =
 '<div class="row db-footer">'+
   '<div class="left">' +
     '<ul id="menu-about" class="menu"><li class="menu-about"><a href="http://dailybruin.com/about/">About</a></li>' +
-      '<li class="menu-contact-us"><a href="http://dailybruin.com/contact/">Contact us</a></li>'+
+      '<li class="menu-contact-us"><a href="http://dailybruin.com/contact/">Contact Us</a></li>'+
       '<li class="menu-recruiting"><a href="http://apply.dailybruin.com/">Recruiting</a></li>' +
       '<li class="menu-advertise"><a href="http://dailybruin.com/advertise/">Advertise</a></li>' +
-      '<li class="menu-privacy-policy"><a href="http://dailybruin.com/privacy/">Privacy policy</a></li>' +
+      '<li class="menu-privacy-policy"><a href="http://dailybruin.com/privacy/">Privacy Policy</a></li>' +
       '</ul>'+
     '</div>' +
   '<div class="right">' +
