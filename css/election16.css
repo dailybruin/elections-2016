@@ -12,6 +12,7 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 36px;
+    font-family: "Roboto Slab", "Helvetica Nueu", Helvetica, Arial, sans-serif;
 }
 
 #navMenu {
@@ -61,10 +62,6 @@ body {
 .headline a {
     text-decoration: none;
     color: inherit;
-}
-
-#navMenu a:active{
-    background-color: red;
 }
 
 .headline a:hover {
@@ -136,6 +133,23 @@ color: #999;
 
 /* Multimedia */
 
-h1 {
-  text-align: center;
+.multimedia-container h1 {
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
+
+.sound-clip {
+  margin-bottom: 30px;
+}
+
+.multimedia-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.multimedia-container a:hover {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #0080c6;
+    text-decoration-color: #0080c6;
+  }
