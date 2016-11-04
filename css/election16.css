@@ -37,6 +37,11 @@ body {
   color: black;
 }
 
+.redone-top-bar a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: lightblue;
+}
+
 .multimedia-graphic img {
   width: 100%;
 }
