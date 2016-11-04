@@ -1,5 +1,5 @@
 document.getElementById("header-img").innerHTML =
-'<img src="img/elections-cover.png" alt="daily bruin elections header image"/>';
+'<a href="news.html"><img src="img/elections-cover.png" alt="daily bruin elections header image"/></a>';
 
 document.getElementById("navMenu").innerHTML =
 '<nav class="top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
@@ -23,6 +23,6 @@ document.getElementById("footer").innerHTML =
       '</ul>'+
     '</div>' +
   '<div class="right">' +
-    'Content copyright &copy; 2016 the Daily Bruin' +
+    'Content copyright &copy; 2016 Daily Bruin' +
   '</div>' +
 '</div> <!--end footer-->';
