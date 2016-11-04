@@ -135,6 +135,9 @@ text-decoration: none;
 .blurb {
     font-size: 14px;
     font-size: .875em;
+    max-width: 60%;
+    display:block;
+    margin:auto;
 }
 @media (max-width:400px) {
     .article_contain {
@@ -208,4 +211,7 @@ text-decoration: none;
 .credit {
   font-size: 10px;
   text-align: center;
+}
+.image{
+  width: 100%;
 }
