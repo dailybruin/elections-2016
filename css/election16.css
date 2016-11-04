@@ -83,6 +83,8 @@ figure {
 .article_img {
     max-width:400px;
     max-height: 400px;
+    display: block;
+    margin: auto;
 }
 .article_contain {
     width: 400px;
@@ -154,4 +156,13 @@ color: #999;
     text-decoration: underline;
     -webkit-text-decoration-color: #0080c6;
     text-decoration-color: #0080c6;
-  }
+}
+
+.radio_iframe{
+  display: block;
+  margin: auto;
+}
+
+.radio_titles{
+  text-align: center;
+}
