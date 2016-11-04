@@ -20,12 +20,9 @@ document.getElementById("footer").innerHTML =
       '<li class="menu-recruiting"><a href="http://apply.dailybruin.com/">Recruiting</a></li>' +
       '<li class="menu-advertise"><a href="http://dailybruin.com/advertise/">Advertise</a></li>' +
       '<li class="menu-privacy-policy"><a href="http://dailybruin.com/privacy/">Privacy Policy</a></li>' +
-      '</ul>'+
-    '</div>' +
-  '<div class="right">' +
-    'Content copyright &copy; 2016 Daily Bruin' +
+    '</ul>'+
   '</div>' +
   '<div class="credit">' +
-    'Page created by <a href="https://github.com/anisa-bashiri">Anisa Bashiri</a>,<a href="https://github.com/H-Huang">Howard Huang</a>, <a href="https://github.com/paulinalei">Paulina Lei</a>, <a href="https://github.com/allisonlu">Allison Lu</a>, <a href="https://github.com/dustinnewman98">Dustin Newman</a>, <a href="https://github.com/knosseir"> Kareem Nosseir</a>, and <a href="https://github.com/artipatankar">Arti Patankar</a>.'+
-  '</div>' + 
+    'Page created by <a href="https://github.com/anisa-bashiri">Anisa Bashiri</a>,<a href="https://github.com/H-Huang">Howard Huang</a>, <a href="https://github.com/paulinalei">Paulina Lei</a>, <a href="https://github.com/allisonlu">Allison Lu</a>, <a href="https://github.com/dustinnewman98">Dustin Newman</a>, <a href="https://github.com/knosseir"> Kareem Nosseir</a>, and <a href="https://github.com/artipatankar">Arti Patankar</a>. &copy; Daily Bruin 2016'+
+  '</div>' +
 '</div> <!--end footer-->';
