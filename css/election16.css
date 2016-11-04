@@ -110,16 +110,20 @@ figure {
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     margin: 12px 0 12px 0;
-    display:block;
-    margin:auto;
+    text-align: center
 }
+
+.textbox{
+  display: block;
+  margin: auto;
+}
+
 .byline, .author {
     color: #999;
     margin-bottom: 2px;
     font-size: 12px;
     font-size: .750em;
-    display:block;
-    margin:auto;
+    text-align: center
 }
 
 .blurb {
@@ -161,7 +165,7 @@ text-decoration: none;
 .multimedia-container h1 {
   font-family: "Roboto Slab", serif;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-: 20px;
 }
 
 .sound-clip {
