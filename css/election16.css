@@ -183,6 +183,7 @@ color: #999;
 }
 
 .all{
+  color: rgb(129,211,232);
   cursor: pointer;
   font-size: 15px;
   -webkit-transition: all 0.3s ease;
@@ -192,6 +193,7 @@ color: #999;
 }
 
 .all:hover{
+  color: rgb(151, 11, 11);
   font-size: 22px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
