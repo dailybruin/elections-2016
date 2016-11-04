@@ -121,18 +121,16 @@ text-transform: uppercase;
 }
 .authorC a {
 text-decoration: none;
-color: #0080c6;
 }
-.authorC a:hover {
-color: #999;
-}
+
 .time {
     font-style: italic;
 }
 .category {
-    color: #0080c6;
+
     text-transform: uppercase;
 }
+
 .blurb {
     font-size: 14px;
     font-size: .875em;
