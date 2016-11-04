@@ -2,7 +2,7 @@ document.getElementById("header-img").innerHTML =
 '<a href="news.html"><img src="img/elections-cover.png" alt="daily bruin elections header image"/></a>';
 
 document.getElementById("navMenu").innerHTML =
-'<nav class="top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
+'<nav class="redone-top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
 '<ul class="right">' +
 '<li role="presentation"><a href="index.html">Endorsements</a></li>' +
 '<li role="presentation"><a href="opinion.html">Opinion</a></li>' +

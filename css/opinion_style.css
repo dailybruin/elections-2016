@@ -6,13 +6,8 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
-a:hover {
-  text-decoration: none;
-  -webkit-text-decoration-color: #0080c6;
-  text-decoration-color: #0080c6;
-}
+
 .title_cent {
   text-align:center;
 }
@@ -60,6 +55,7 @@ figure {
   color: #0080c6;
   text-transform: uppercase;
 }
+
 .blurb {
   font-size: 14px;
   font-size: .875em;

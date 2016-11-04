@@ -18,19 +18,27 @@ body {
 #navMenu {
   margin: auto;
   width: 46%;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.redone-top-bar ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+.redone-top-bar li {
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  display: inline;
+}
+
+.redone-top-bar a {
+  color: black;
 }
 
 .multimedia-graphic img {
   width: 100%;
-}
-
-.left {
-  float: left!important;
-}
-
-.right {
-  float: right!important;
 }
 
 .db-divide {
