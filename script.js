@@ -1,5 +1,5 @@
 document.getElementById("header-img").innerHTML =
-'<a href="news.html"><img src="http://dailybruin.com/images/2016/11/elections-cover.png" alt="daily bruin elections header image"/></a>';
+'<a href="news.html"><img src="http://dailybruin.com/images/2016/11/election-cover.jpg" alt="daily bruin elections header image"/></a>';
 
 document.getElementById("navMenu").innerHTML =
 '<nav class="redone-top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
