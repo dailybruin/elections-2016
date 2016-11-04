@@ -2,6 +2,7 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="css/button_style.css" rel="stylesheet">
   <link rel="stylesheet" href="css/bootlegFoundation.css" />
   <link rel="stylesheet" href="css/dbFoundation.css" />
   <link href="css/election16.css" rel="stylesheet">
@@ -16,6 +17,16 @@
   <div class="title_cent">
     <h1>U.S. Election News</h1>
   </div>
+    
+<div class="filters">
+    <input type='image' id='national-button' value='National' src="img/National-01.png" style="width:75px; height:75px;">
+
+    <input type='image' id='state-button' value='State' src="img/State-01.png" style="width:75px; height:75px;">
+
+    <input type='image' id='local-button' value='Local' src="img/Local-01.png" style="width:75px; height:75px;">
+</div>
+    
+    
   <div class="master_contain">
     <div class="article_contain">
       <figure class="imgfig">
@@ -78,15 +89,8 @@
               </div>
             </div>
           </div>
-          <script type="text/javascript">
-          document.getElementById("navMenu").innerHTML =
-          '<nav class="top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
-          '<ul class="right">' +
-          '<li role="presentation"><a href="#">Endorsements</a></li>' +
-          '<li role="presentation"><a href="#">Opinion</a></li>' +
-          '<li role="presentation"><a href="#">News</a></li>' +
-          '<li role="presentation"><a href="multimedia.html">Multimedia</a></li>' +
-          '</ul></section></nav>';
-          </script>
+
+        <script src="script.js"></script>
+        <script src="main.js"></script>
         </body>
 </html>
