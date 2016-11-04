@@ -12,15 +12,18 @@ function switchFilters(on, off1, off2){
 }
 
 $(document).ready(function () {
-    $(".national-button").on("click", function (event) {
+    $(".national-button").on("click", function (e) {
+        e.preventDefault();
         switchFilters(".national", ".state", ".local");
     });
 
-    $(".state-button").on("click", function (event) {
+    $(".state-button").on("click", function (e) {
+        e.preventDefault();
         switchFilters(".state", ".national", ".local");
     });
 
-    $(".local-button").on("click", function (event) {
+    $(".local-button").on("click", function (e) {
+        e.preventDefault();
         switchFilters(".local", ".national", ".state");
     });
 
