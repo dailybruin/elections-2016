@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/bootlegFoundation.css" />
   <link rel="stylesheet" href="css/dbFoundation.css" />
   <link href="css/election16.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <title>U.S. Election 2016 | Daily Bruin</title>
 </head>
 <body>
@@ -19,75 +20,73 @@
   </div>
     
 <div class="filters">
-    <input type='image' id='national-button' value='National' src="img/National-01.png" style="width:75px; height:75px;">
+    <input type='image' class="national-button" value='National' src="img/National-01.png" style="width:75px; height:75px;">
 
-    <input type='image' id='state-button' value='State' src="img/State-01.png" style="width:75px; height:75px;">
+    <input type='image' class="state-button" value='State' src="img/State-01.png" style="width:75px; height:75px;">
 
-    <input type='image' id='local-button' value='Local' src="img/Local-01.png" style="width:75px; height:75px;">
+    <input type='image' class="local-button" value='Local' src="img/Local-01.png" style="width:75px; height:75px;">
 </div>
     
     
   <div class="master_contain">
-    <div class="article_contain">
+    <div class="article_contain national">
       <figure class="imgfig">
         <a href="#">
-          <img class="article_img" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Chocolate_Chip_Cookies_-_kimberlykv.jpg"/>
+          <img class="article_img" src=""/>
         </a>
       </figure>
       <div class="textbox">
-        <h2 class="headline"><a href="#">
-          article title
+        <h2 class="headline"><a href="http://dailybruin.com/2016/11/02/candidate-breakdown-for-the-nov-8-election/">
+          Candidate breakdown for the Nov. 8 election
         </a></h2>
         <p class="byline"><span class="time">time</span> | <a href="#" class="category">category1</a>,
           <a href="#" class="category">category1</a></p>
-          <p class="blurb">Lorem ipsum dolor sit amet, vix quot eirmod ut, sit te virtute fuisset deseruisse. Tincidunt voluptaria an mel, ne putent inermis his.</p>
+          <p class="blurb">The Daily Bruin breaks down the background and policy positions for candidates running for office. The following candidates hope to represent UCLA at some level of government, whether it be in Washington, D.C. </p>
         </div>
       </div>
-      <div class="article_contain">
+      <div class="article_contain national">
         <figure class="imgfig">
           <a href="#">
             <img class="article_img" src=""/>
           </a>
         </figure>
         <div class="textbox">
-          <h2 class="headline"><a href="#">
-            article title
+          <h2 class="headline"><a href="http://dailybruin.com/2016/11/02/candidate-breakdown-for-the-nov-8-election/">
+            Candidate breakdown for the Nov. 8 election
           </a></h2>
-          <p class="byline"><span class="time">time</span> | <a href="#" class="category">category1</a>,
-            <a href="#" class="category">category1</a></p>
-            <p class="blurb">Lorem ipsum dolor sit amet, vix quot eirmod ut, sit te virtute fuisset deseruisse. Tincidunt voluptaria an mel, ne putent inermis his.</p>
+          <p class="byline"><span class="time">November 2, 2016 10:07 pm</span> | <a href="http://dailybruin.com/category/news/" class="category">News</a></p>
+            <p class="blurb">The Daily Bruin breaks down the background and policy positions for candidates running for office. The following candidates hope to represent UCLA at some level of government, whether it be in Washington, D.C. </p>
           </div>
         </div>
-        <div class="article_contain">
-          <figure class="imgfig">
-            <a href="#">
-              <img class="article_img" src="http://www.w3schools.com/css/trolltunga.jpg"/>
-            </a>
-          </figure>
-          <div class="textbox">
-            <h2 class="headline"><a href="#">
-              article title
-            </a></h2>
-            <p class="byline"><span class="time">time</span> | <a href="#" class="category">category1</a>,
-              <a href="#" class="category">category1</a></p>
-              <p class="blurb">Lorem ipsum dolor sit amet, vix quot eirmod ut, sit te virtute fuisset deseruisse. Tincidunt voluptaria an mel, ne putent inermis his.</p>
-            </div>
-          </div>
-          <div class="article_contain">
+          <div class="article_contain local">
             <figure class="imgfig">
               <a href="#">
-                <img class="article_img" src="https://www.surfexpression.com/wp-content/uploads/2015/10/California-Dreaming-Product-Image-.png"/>
+                <img class="article_img" src=""/>
               </a>
             </figure>
             <div class="textbox">
-              <h2 class="headline"><a href="#">
-                article title
+              <h2 class="headline"><a href="http://dailybruin.com/2016/11/02/breakdown-of-the-nov-8-ballot-propositions-and-measures/">
+                Breakdown of the Nov. 8 ballot propositions and measures
               </a></h2>
-              <p class="byline"><span class="time">time</span> | <a href="#" class="category">category1</a>,
-                <a href="#" class="category">category1</a></p>
-                <p class="blurb">Lorem ipsum dolor sit amet, vix quot eirmod ut, sit te virtute fuisset deseruisse. Tincidunt voluptaria an mel, ne putent inermis his.</p>
+              <p class="byline"><span class="time">November 2, 2016 10:06 pm</span> | <a href="http://dailybruin.com/category/news/" class="category">News</a></p>
+                <p class="blurb">The Daily Bruin breaks down state, county and city ballot measures that cover marijuana, criminal justice reform and public transportation.</p>
               </div>
             </div>
+            <div class="article_contain local">
+          <figure class="imgfig">
+            <a href="#">
+              <img class="article_img" src="img/11.3.news.electionissue.deathpenalty-01.png"/>
+            </a>
+          </figure>
+          <div class="textbox">
+            <h2 class="headline"><a href="http://dailybruin.com/2016/11/02/propositions-62-66-take-opposing-approaches-to-californias-death-penalty/">
+              Propositions 62, 66 take opposing approaches to California’s death penalty
+            </a></h2>
+            <p class="byline"><span class="time">November 2, 2016 10:00 pm</span> | <a href="http://dailybruin.com/category/news/a-closer-look/" class="category">A Closer Look</a>,
+              <a href="http://dailybruin.com/category/news/" class="category">News</a></p>
+              <p class="blurb">Two propositions regarding the death penalty will appear on Tuesday’s statewide ballot – one which aims to repeal the death penalty and another that seeks to speed up the execution process. </p>
+            </div>
+          </div>
           </div>
 
         <script src="script.js"></script>
