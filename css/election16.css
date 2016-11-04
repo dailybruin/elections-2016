@@ -110,7 +110,8 @@ figure {
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     margin: 12px 0 12px 0;
-    text-align: center
+    text-align: center;
+    font-size: 1.25em;
 }
 
 .textbox{
