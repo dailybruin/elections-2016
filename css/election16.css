@@ -3,6 +3,59 @@ body {
     padding:0;
 }
 
+.title_cent {
+    text-align:center;
+}
+
+.title_cent h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+#navMenu {
+  margin: auto;
+  width: 46%;
+  font-size: 20px;
+}
+
+.multimedia-graphic img {
+  width: 100%;
+}
+
+.left {
+  float: left!important;
+}
+
+.right {
+  float: right!important;
+}
+
+.db-divide {
+  border-bottom: thin solid #222222;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.db-footer {
+  color: grey;
+  line-height: 3;
+}
+
+.db-footer a {
+  color: #0080c6;
+}
+
+.db-footer ul {
+  margin: 0.625rem 0 0.625rem 0;
+}
+
+.db-footer li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1rem 0 1rem;
+}
 
 /* News */
 .headline a {
@@ -19,18 +72,10 @@ body {
     -webkit-text-decoration-color: #0080c6;
     text-decoration-color: #0080c6;
 }
-.title_cent {
-    text-align:center;
-}
-.title_cent h1 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 36px;
-}
 .master_contain {
     display:flex;
     flex-wrap:wrap;
+    margin: 10px 0 0 0;
 }
 figure {
     margin:0;
@@ -45,15 +90,16 @@ figure {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    justify-content: space-around;
 }
 .headline {
     font-family: "Roboto Slab", serif;
     font-weight: 400;
-    margin: 0;
+    margin: 12px 0 12px 0;
 }
 .byline, .author {
     color: #999;
-    margin: 0;
+    margin-bottom: 2px;
     font-size: 12px;
     font-size: .750em;
 }
@@ -93,47 +139,4 @@ color: #999;
 
 h1 {
   text-align: center;
-}
-
-#navMenu {
-  margin: auto;
-  width: 46%;
-  font-size: 20px;
-}
-
-.multimedia-graphic img {
-  width: 100%;
-}
-
-.left {
-  float: left!important;
-}
-
-.right {
-  float: right!important;
-}
-
-.db-divide {
-  border-bottom: thin solid #222222;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-}
-
-.db-footer {
-  color: grey;
-  line-height: 3;
-}
-
-.db-footer a {
-  color: #0080c6;
-}
-
-.db-footer ul {
-  margin: 0.625rem 0 0.625rem 0;
-}
-
-.db-footer li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0 1rem 0 1rem;
 }

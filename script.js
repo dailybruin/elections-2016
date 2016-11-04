@@ -6,3 +6,21 @@ document.getElementById("navMenu").innerHTML =
 '<li role="presentation"><a href="news.html">News</a></li>' +
 '<li role="presentation"><a href="multimedia.html">Multimedia</a></li>' +
 '</ul></section></nav>';
+
+document.getElementById("footer").innerHTML =
+'<div class="db-divide">'+
+'</div>'+
+'<div class="row db-footer">'+
+  '<div class="left">' +
+    '<ul id="menu-about" class="menu"><li class="menu-about"><a href="/about/">About</a></li>' +
+      '<li class="menu-contact-us"><a href="/contact/">Contact us</a></li>'+
+      '<li class="menu-recruiting"><a href="http://apply.dailybruin.com/">Recruiting</a></li>' +
+      '<li class="menu-advertise"><a href="/advertise/">Advertise</a></li>' +
+      '<li class="menu-privacy-policy"><a href="/privacy/">Privacy policy</a></li>' +
+      '<li class="menu-donate"><a href="#">Donate</a></li>'+
+      '</ul>'+
+    '</div>' +
+  '<div class="right">' +
+    'Content copyright &copy; 2016 the Daily Bruin' +
+  '</div>' +
+'</div> <!--end footer-->';
