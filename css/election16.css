@@ -94,10 +94,11 @@ figure {
     padding:0;
 }
 .article_img {
-    max-width:400px;
+    max-width: 400px;
     max-height: 400px;
     display: block;
     margin: auto;
+    overflow: hidden;
 }
 .article_contain {
     width: 400px;
