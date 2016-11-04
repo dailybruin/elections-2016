@@ -166,3 +166,17 @@ color: #999;
 .radio_titles{
   text-align: center;
 }
+
+.filter-text{
+  color: rgb(129,211,232);
+  text-align: center;
+}
+
+.all{
+  font-size: 15px;
+}
+
+.all:hover{
+  background-color: black;
+  color: white;
+}
