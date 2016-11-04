@@ -51,11 +51,21 @@ figure {
     font-weight: 400;
     margin: 0;
 }
-.byline {
+.byline, .author {
     color: #999;
     margin: 0;
     font-size: 12px;
     font-size: .750em;
+}
+.authorC {
+text-transform: uppercase;
+}
+.authorC a {
+text-decoration: none;
+color: #0080c6;
+}
+.authorC a:hover {
+color: #999;
 }
 .time {
     font-style: italic;
