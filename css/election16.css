@@ -110,12 +110,24 @@ figure {
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     margin: 12px 0 12px 0;
+    display:block;
+    margin:auto;
 }
 .byline, .author {
     color: #999;
     margin-bottom: 2px;
     font-size: 12px;
     font-size: .750em;
+    display:block;
+    margin:auto;
+}
+
+.blurb {
+    font-size: 14px;
+    font-size: .875em;
+    max-width: 70%;
+    display:block;
+    margin:auto;
 }
 .authorC {
 text-transform: uppercase;
@@ -132,13 +144,7 @@ text-decoration: none;
     text-transform: uppercase;
 }
 
-.blurb {
-    font-size: 14px;
-    font-size: .875em;
-    max-width: 60%;
-    display:block;
-    margin:auto;
-}
+
 @media (max-width:400px) {
     .article_contain {
         max-width:100%;
