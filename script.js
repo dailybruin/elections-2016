@@ -1,3 +1,6 @@
+document.getElementById("header-img").innerHTML =
+'<img src="img/elections-cover.png" alt="daily bruin elections header image"/>';
+
 document.getElementById("navMenu").innerHTML =
 '<nav class="top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
 '<ul class="right">' +
@@ -12,12 +15,11 @@ document.getElementById("footer").innerHTML =
 '</div>'+
 '<div class="row db-footer">'+
   '<div class="left">' +
-    '<ul id="menu-about" class="menu"><li class="menu-about"><a href="/about/">About</a></li>' +
-      '<li class="menu-contact-us"><a href="/contact/">Contact us</a></li>'+
+    '<ul id="menu-about" class="menu"><li class="menu-about"><a href="http://dailybruin.com/about/">About</a></li>' +
+      '<li class="menu-contact-us"><a href="http://dailybruin.com/contact/">Contact us</a></li>'+
       '<li class="menu-recruiting"><a href="http://apply.dailybruin.com/">Recruiting</a></li>' +
-      '<li class="menu-advertise"><a href="/advertise/">Advertise</a></li>' +
-      '<li class="menu-privacy-policy"><a href="/privacy/">Privacy policy</a></li>' +
-      '<li class="menu-donate"><a href="#">Donate</a></li>'+
+      '<li class="menu-advertise"><a href="http://dailybruin.com/advertise/">Advertise</a></li>' +
+      '<li class="menu-privacy-policy"><a href="http://dailybruin.com/privacy/">Privacy policy</a></li>' +
       '</ul>'+
     '</div>' +
   '<div class="right">' +
