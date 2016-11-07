@@ -1,5 +1,5 @@
 document.getElementById("header-img").innerHTML =
-'<a href="news.html"><img src="http://dailybruin.com/images/2016/11/election-cover.jpg" alt="daily bruin elections header image"/></a>';
+'<a href="news.html"><img src="http://dailybruin.com/images/2016/11/election-cover1.jpg" alt="daily bruin elections header image"/></a>';
 
 document.getElementById("navMenu").innerHTML =
 '<nav class="redone-top-bar" data-topbar role="navigation"><section class="top-bar-section">' +
@@ -23,6 +23,6 @@ document.getElementById("footer").innerHTML =
     '</ul>'+
   '</div>' +
   '<div class="credit">' +
-    'Page created by <a href="https://github.com/anisa-bashiri">Anisa Bashiri</a>,<a href="https://github.com/H-Huang">Howard Huang</a>, <a href="https://github.com/paulinalei">Paulina Lei</a>, <a href="https://github.com/allisonlu">Allison Lu</a>, <a href="https://github.com/dustinnewman98">Dustin Newman</a>, <a href="https://github.com/knosseir"> Kareem Nosseir</a>, and <a href="https://github.com/artipatankar">Arti Patankar</a>. &copy; Daily Bruin 2016'+
+    'Page created by <a href="https://github.com/anisa-bashiri">Anisa Bashiri</a>, <a href="https://github.com/H-Huang">Howard Huang</a>, <a href="https://github.com/paulinalei">Paulina Lei</a>, <a href="https://github.com/allisonlu">Allison Lu</a>, <a href="https://github.com/dustinnewman98">Dustin Newman</a>, <a href="https://github.com/knosseir"> Kareem Nosseir</a>, and <a href="https://github.com/artipatankar">Arti Patankar</a>. &copy; Daily Bruin 2016'+
   '</div>' +
 '</div> <!--end footer-->';
